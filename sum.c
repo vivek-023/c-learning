@@ -7,8 +7,12 @@
  /** integer type variables
      this program will add 2 numbers
       output is 50+60=110  **/
- int a=80;
- int b=90;
+ int a;
+ int b;
+ printf("a : ");
+ scanf("%d",&a);
+ printf("b : ");
+ scanf("%d",&b);
  printf("%d + %d = %d",b,a,a+b);
 
 	 
