@@ -1,9 +1,14 @@
- #include <stdio.h>
- int main(){
-	 int i,m,x,factorial=1;
-	 printf("m: ");
-	 scanf("%d",&m);
-	 for(i=m;i>=1;i=i-1){
-		x=factorial*i;
-	 } printf("%d",x);
- } 
+ #include<stdio.h>
+
+
+    int main(){ 
+    int a,i,f=1;
+		printf("a: ");
+		scanf("%d",&a);
+        printf(" 1");
+        for(i=2;i<=a;i++){
+             printf(" * %d ",i);
+             f=f*i;
+		}
+		          printf("= %d",f);
+    }
